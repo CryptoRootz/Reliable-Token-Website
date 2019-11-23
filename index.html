@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vuetify Parallax Starter</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900' rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/@mdi/font@3.x/css/materialdesignicons.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
+</head>
+<body>
+ <div id="app">
+   <v-app light>
+    <v-toolbar color="white">
+      <v-toolbar-title v-text="title"></v-toolbar-title>
+    </v-toolbar>
+    <v-content>
+      <section>
+        <v-img src="assets/dew.jpg" height="450">
+          <v-layout
+            column
+            align-center
+            justify-center
+            class="white--text"
+          >
+            <img src="assets/vuetify.png" alt="Vuetify.js" height="200">
+            <h1 class="white--text mb-2 display-2 text-center">Reliable Token</h1>
+            <div class="title mb-4 text-center">A Decentralized Currency backed by Trust</div>
+            <v-btn
+              class="mt-12"
+              color="blue lighten-2"
+              dark
+              large
+              href="https://etherdelta.com" target="_blank"
+            >
+              Let the Healing Begin
+            </v-btn>
+          </v-layout>
+        </v-img>
+      </section>
+
+      <section>
+        <v-layout
+          column
+          wrap
+          class="my-12"
+          align-center
+        >
+          <v-flex xs12 sm4 class="my-4">
+            <div class="text-center">
+              <h2 class="display-1">Bringing Trust back to Business </h2>
+              <span class="headline">
+                We know how you feel
+              </span>
+            </div>
+          </v-flex>
+          <v-flex xs12>
+            <v-container grid-list-xl>
+              <v-layout row wrap align-center>
+                <v-flex xs12 md4>
+                  <v-card flat class="transparent">
+                    <v-card-text class="text-center">
+                      <v-icon x-large class="blue--text text--lighten-2">mdi-network</v-icon>
+                    </v-card-text>
+                    <v-card-title primary-title class="layout justify-center">
+                      <div class="display-1 text-center">Decentralized</div>
+                    </v-card-title>
+                    <v-card-text>
+                      We have a Fully Decentralized Cryptocurrency that runs on the Ethereum Blockchain, which means our currency
+                     can never be shutdown or manipulated. Using Ethereum's open pubic ledger (aka Blockchain) everyone has full transparency
+                      of our virtual economy. We also have a ETH trading pair on a popular decentralized exchange aka DEX. 
+                    </v-card-text>
+                  </v-card>
+                </v-flex>
+                <v-flex xs12 md4>
+                  <v-card flat class="transparent">
+                    <v-card-text class="text-center">
+                      <v-icon x-large class="blue--text text--lighten-2">mdi-book</v-icon>
+                    </v-card-text>
+                    <v-card-title primary-title class="layout justify-center">
+                      <div class="display-1">Education</div>
+                    </v-card-title>
+                    <v-card-text>
+                      We believe that in order for Crypto to be adopted by the masses, people first need to be properly educated. Many of our token holders are 
+                      new to the world of Cryptocurrency, soon to come will be a plethora of indepth tutorials and guides on how to obtain, trade  and sell our token.
+                      we have a support chatroom with helpful patient volunteers to answers all your cryptocurrency questions.
+                    </v-card-text>
+                  </v-card>
+                </v-flex>
+                <v-flex xs12 md4>
+                  <v-card flat class="transparent">
+                    <v-card-text class="text-center">
+                      <v-icon x-large class="blue--text text--lighten-2">mdi-tree</v-icon>
+                    </v-card-text>
+                    <v-card-title primary-title class="layout justify-center">
+                      <div class="display-1 text-center">Community</div>
+                    </v-card-title>
+                    <v-card-text>
+                      We are a like minded community of crypto enthusiasts who come together to heal and bring about peace
+                      in society. We are taking a stance and creating our own economy of financial healing. Our foundation is based on trust 
+                      and we fill  trust should be highly valued. So yes you Should be able to profit off being Honest and Trustworthy. we can work together with people we trust 
+                      to make a healthy living.
+                    </v-card-text>
+                  </v-card>
+                </v-flex>
+              </v-layout>
+            </v-container>
+          </v-flex>
+        </v-layout>
+      </section>
+
+      <section>
+        <v-img src="assets/sprouts2.jpg" height="420">
+          <v-layout column align-center justify-center>
+            <div class="headline white--text mb-4 text-center">Its time to get what you deserve</div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/J_qISWmA3VU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- <em>Kick-start your application today</em> -->
+            <!-- <v-btn
+              class="mt-12"
+              color="blue lighten-2"
+              dark
+              large
+              href="/pre-made-themes"
+            >
+              Get Started
+            </v-btn> -->
+          </v-layout>
+        </v-img>
+      </section>
+
+      <section>
+        <v-container grid-list-xl>
+          <v-layout row wrap justify-center class="my-12">
+            <v-flex xs12 sm4>
+              <v-card flat class="transparent">
+                <v-card-title primary-title class="layout justify-center">
+                  <div class="display-1">Reliable Token</div>
+                </v-card-title>
+                <v-card-text class="subtitle">
+                  Check out our ERC-20 smart contract on the Ethereum blockchain for 
+                  more details about the legitimacy of our decentralized token. 
+                  <a href="https://etherscan.io/token/0xb6b84599203ac074ed637a50e67c97185c7bd167" target="_blank">Check out our Smart Contract</a>
+                <br>
+                  We also have a ETH trading pair on Ether Delta. Make Profit with RLT on a decentralized exchange.
+                  <a href="https://etherdelta.com" target="_blank">Check out our Smart Contract</a>
+                </v-card-text>
+                <v-img src="assets/token.png" height="200" max-width="400"></v-img>
+              </v-card>
+            </v-flex>
+            <v-flex xs12 sm4 offset-sm1>
+              <v-card flat class="transparent">
+                <v-card-title primary-title class="layout justify-center">
+                  <div class="display-1">Contact us</div>
+                </v-card-title>
+                <v-card-text class="subtitle-1">
+                  We are currently hiring for small online gigs to help build our brand 
+                  Email us or visit us on our discord for more details.
+                </v-card-text>
+                <v-list class="transparent">
+                  <v-list-item>
+                    <v-list-item-action>
+                      <v-icon class="blue--text text--lighten-2">mdi-discord</v-icon>
+                    </v-list-item-action>
+                    <v-list-item-content>
+                      <!-- <v-list-item-title>Come chat with us</v-list-item-title> -->
+                      <a href="https://discord.gg/WevHKwG" target="_blank">Come share your ideas with us</a>
+                    </v-list-item-content>
+                  </v-list-item>
+                  <v-list-item>
+                    <v-list-item-action>
+                      <v-icon class="blue--text text--lighten-2">mdi-map-marker</v-icon>
+                    </v-list-item-action>
+                    <v-list-item-content>
+                      <v-list-item-title>World-Wide </v-list-item-title>
+                    </v-list-item-content>
+                  </v-list-item>
+                  <v-list-item>
+                    <v-list-item-action>
+                      <v-icon class="blue--text text--lighten-2">mdi-email</v-icon>
+                    </v-list-item-action>
+                    <v-list-item-content>
+                      <v-list-item-title>cryptorootz@pm.me</v-list-item-title>
+                    </v-list-item-content>
+                  </v-list-item>
+                </v-list>
+              </v-card>
+            </v-flex>
+          </v-layout>
+        </v-container>
+      </section>
+
+      <v-footer color="blue darken-2">
+        <v-layout row wrap align-center>
+          <v-flex xs12>
+            <div class="white--text ml-4">
+              Made with
+              <v-icon class="red--text">mdi-heart</v-icon>
+              by <a class="white--text" href="https://vuetifyjs.com" target="_blank">Vuetify</a>
+              and <a class="white--text" href="https://github.com/vwxyzjn">Crypto Rootz</a>
+            </div>
+          </v-flex>
+        </v-layout>
+      </v-footer>
+    </v-content>
+  </v-app>
+ </div>
+ <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+ <script>
+   new Vue({
+    el: '#app',
+    vuetify: new Vuetify(),
+    data () {
+      return {
+        title: 'Your Logo'
+      }
+    }
+  })
+ </script>
+</body>
+</html>
